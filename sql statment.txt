@@ -1,0 +1,13 @@
+/*
+Query to retrieve injuerd has more than one surgery.
+*/
+
+select ssn ,  concat(first_name,concat(' ',last_name)) from injured
+where ssn in (select patient_id from oprations having count(patient_id) > 1 
+group by patient_id);
+/*
+Query to retrieve the cost for all surgery have done
+*/
+select ssn ,  concat(first_name,concat(' ',last_name)) as Name ,sum(cost) as Costs from injured, oprations
+where patient_id = ssn 
+group by ssn ,concat(first_name,concat(' ',last_name));

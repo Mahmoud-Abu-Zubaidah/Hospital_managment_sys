@@ -1,0 +1,15 @@
+drop table employee cascade constraint;
+drop table degree cascade constraint;
+drop table team cascade constraint;
+drop table OPRATIONS cascade constraint;
+drop table injured cascade constraint;
+drop table department cascade constraint;
+drop table room cascade constraint;
+drop view col_info;
+drop view EMPLOYEE_INFO;
+drop view PATIENT_COSTS;
+drop sequence DEP_ID_SEQ;
+drop sequence team_id_seq;
+drop sequence DEGREE_ID_SEQ;
+drop sequence ROOM_ID_SEQ;
+drop sequence PROC_ID_SEQ;
