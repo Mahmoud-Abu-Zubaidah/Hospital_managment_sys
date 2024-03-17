@@ -31,5 +31,20 @@ To `**Delete**` data from tables ClearDB.sql
 
 ### Forms Look Like:
 
+#### Insert patient 
+![image](images/Picture1.png)
+
+#### Create Surgery 
+![image](images/Picture2.png)
+
+#### Add an employee
+![image](images/Picture3.png)
+
+#### list patient schedule surgeries
+![image](images/Picture4.png)
+
+
+## END
+
 
 
